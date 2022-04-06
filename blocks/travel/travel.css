@@ -1,0 +1,28 @@
+.travel {
+    margin: auto;
+    align-self: center;
+}
+@media screen and (min-width: 320px) {
+    .travel {
+        max-width: 320px;
+        padding: 48px 2px 0 2px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .travel {
+        max-width: 768px;
+        padding: 48px 4px 0 4px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .travel {
+        max-width: 928px;
+        padding: 48px 48px 0 48px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .travel {
+        max-width: 984px;
+        padding: 56px 148px 0 148px;
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width: 320px) { 
+
+    .baykal__image {
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .baykal__image {
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .baykal__image {
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .baykal__image {
+        max-width: 100%;
+        margin: 0 calc((1280px - 1184px)/2);
+    }
+}

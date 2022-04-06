@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px) {
+    .place__box {
+        display: flex;
+        flex-direction: column;
+        margin: 0 15px 0 15px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .place__box {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .place__box {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .place__box {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
