@@ -21,7 +21,7 @@
 }
 @media screen and (min-width: 1280px) {
     .place__box {
-        display: flex;
+       display: flex;
         flex-direction: column;
         margin: 0;
     }

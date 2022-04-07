@@ -1,6 +1,7 @@
 .places {
     margin: 0;
     padding: 0;
+    display: grid;
 }
 @media screen and (min-width: 320px) {
     .places {

@@ -30,10 +30,10 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__url/place__url.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__box/_text/plsce__box_text.css);
-@import url(../blocks/place/__box/place__box.css);
 @import url(../blocks/place/__img/place__img.css);
-@import url(../blocks/place/__box/_text/place__box_text-karel.css);
+@import url(../blocks/place/__box/place__box-text.css);
+@import url(../blocks/place/__box/place__box.css);
+@import url(../blocks/place/__text-karel/place__text-karel.css);
 
 @import url(../blocks/cover/cover.css);
 
