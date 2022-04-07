@@ -31,7 +31,7 @@
     .place__box_text-karel {
         font-size: 18px;
         line-height: 163%;
-        margin: 0; 
+        margin: 0;
         display: flex;
         flex-direction: column;
     }
