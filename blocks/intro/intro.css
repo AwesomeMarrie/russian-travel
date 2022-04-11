@@ -20,12 +20,10 @@
     .intro {
         max-width: 690px;
         padding: 92px 48px 0 48px;
-        align-self:flex-start;
     }
 }
 @media screen and (min-width: 1280px) {
     .intro {
-        max-width: 690px;
         padding: 92px 148px 0 148px;
         margin: auto;
     }

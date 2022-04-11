@@ -7,19 +7,17 @@
     <title>Путешествие по России</title>
 </head>
 
-<body>
-    <div class="page">
+<body class="page">
         <header class="header">
             <img class="logo" src="./image/logo.png" alt="Россия_лого">
-            <p class="header__lang-ru">Ru</p>
-            <p class="header__lang-en">En</p>
+            <a href="#" class="header__lang-ru header__lang-ru_active">Ru</a>
+            <a href="#" class="header__lang-en ">En</a>
         </header>
-        
         <main class="content">
             <section class="lead">
                 <div class="travel">
                     <h1 class="travel__title">Путешествия по России</h1>
-                    <h2 class="travel__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+                    <p class="travel__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                     <img class="travel__image" src="./image/train.png" alt="вагон">
                     <p class="travel__caption">ваша полка — верхняя</p>
                 </div>
@@ -50,7 +48,7 @@
                 <img class="photo-grid__pic" src="./image/fog_mount.png" alt="гора_в_тумане">
             </section>
             <section class="places">
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">Куршская коса</h2>
                     <p class="place__url">URL</p>
                     <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -59,13 +57,13 @@
                         <p class="place__box-text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
                         <p class="place__box-text">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                     </div>
-                </div>
+                </article>
                 <div class="place">
                     <h2 class="place__title">Кольский</h2>
                     <p class="place__url">URL</p>
                     <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                     <img class="place__img" src="./image/kolsk.png" alt="Кольский">
-                    <div class="box">    
+                    <div class="place__box">    
                         <p class="place__box-text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
                         <p class="place__box-text">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
                     </div>    
@@ -85,7 +83,7 @@
                     <p class="place__url">URL</p>
                     <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                     <img class="place__img" src="./image/baikal.png" alt="Байкал">
-                    <div class="box">
+                    <div class="place__box">
                         <p class="place__box-text">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
                         <p class="place__box-text">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
@@ -103,15 +101,16 @@
                     <a class="baykal__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"><img class="baykal__image" src="./image/dogs.png" alt="До_Байкала_на_собаках"></a>
                 </div>
             </section>
-            <footer class="footer">
-                <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-                <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-                <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-                <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-                <p class="footer__author">© 2022. Марина К.</p>
+            <footer>
+                <nav class="footer">
+                    <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                    <a class="footer footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                    <a class="footer footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                    <a class="footer footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                    <a class="footer footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>                    
+                    <p class="footer footer__author">© 2022. Марина К.</p>
+                </nav>
             </footer>
         </main>
-    </div>
 </body>
 </html>
