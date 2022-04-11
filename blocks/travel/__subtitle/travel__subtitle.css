@@ -22,16 +22,10 @@
 @media screen and (min-width: 1024px) {
     .travel__subtitle {
         margin: 32px 144px 0 144px;
-        max-width: 640px;
-        font-size: 30px;
-        line-height: 36px;
     }
 }
 @media screen and (min-width: 1280px) {
     .travel__subtitle {
         margin: 32px 172px 0 172px;
-        max-width: 640px;
-        font-size: 30px;
-        line-height: 36px;
     }
 }
